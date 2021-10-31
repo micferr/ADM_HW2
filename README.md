@@ -15,6 +15,8 @@ The repo also contains other Python files, containing support code not directly 
 - `convert_dataset.py` removes some columns from the dataset to try and make it smaller;
 - `utils.py` contains all the support classes and methods called in the notebook.
 
+[Here](https://nbviewer.org/github/micferr/ADM_HW2/blob/main/main.ipynb) is the `nbviewer` link as suggested in the HW's text. 
+
 #### Data processing
 
 The research questions are run on the whole dataset (including bonuses). 
