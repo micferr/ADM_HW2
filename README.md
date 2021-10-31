@@ -32,7 +32,7 @@ The complete dataset was too big to be loaded in memory at once. Several solutio
   
 - Implement a custom processing layer
 
-  Coming from a CS background, this is the solution I chose. I first filtered some unused fields from the script to improve processing performance, then designed an small object-oriented framework to process entries.
+  Coming from a CS background, this is the solution I chose. I first filtered some unused fields from the script to improve processing performance, then designed a small object-oriented framework to process entries.
   
   In particular, `convert_dataset.py` contains a script to filter out some columns, most notably the `review` field which isn't used in any research question and takes a good chuck of the files' size by itself.
   
