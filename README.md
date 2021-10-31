@@ -9,6 +9,12 @@ It contains two sections, accounting for research and theoretical questions.
 
 The implementation assumes the development environment to be set up using [Poetry](https://python-poetry.org/) and that data is stored in a `data` folder.
 
+The repo also contains other Python files, containing support code not directly related to the RQs:
+
+- `constants.py` file contains the constants used in the notebook;
+- `convert_dataset.py` removes some columns from the dataset to try and make it smaller;
+- `utils.py` contains all the support classes and methods called in the notebook.
+
 #### Data processing
 
 The research questions are run on the whole dataset (including bonuses). 
